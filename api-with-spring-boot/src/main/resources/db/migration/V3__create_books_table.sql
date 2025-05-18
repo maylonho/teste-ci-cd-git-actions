@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS books (
+    id BIGINT AUTO_INCREMENT PRIMARY KEY,
+    author VARCHAR(80),
+    pages INT,
+    title VARCHAR(100)
+);

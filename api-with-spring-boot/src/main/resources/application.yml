@@ -2,7 +2,7 @@ server:
   port: 8080
 
 file:
-  upload-dir: /home/runner/work/api-with-spring-boot/UploadDir
+  upload-dir: /home/runner/work/teste-ci-cd-git-actions/UploadDir
 
 spring:
   datasource:

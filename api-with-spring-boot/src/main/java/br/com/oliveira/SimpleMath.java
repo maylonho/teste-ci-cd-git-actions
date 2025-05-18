@@ -13,9 +13,13 @@ public class SimpleMath {
 		return numberOne * numberTwo;
 	}
 
-	public Double division(Double numberOne, Double numberTwo) {
-		return numberOne / numberTwo;
+	public double division(double first, double second) {
+	    if (second == 0.0) {
+	        throw new ArithmeticException("Impossible to divide by zero!");
+	    }
+	    return first / second;
 	}
+
 
 	public Double mean(Double numberOne, Double numberTwo) {
 		return (numberOne + numberTwo) / 2;
